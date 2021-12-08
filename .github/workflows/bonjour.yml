@@ -3,7 +3,8 @@ on:
   - push
 jobs:
   dire_bonjour:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
+    container: ghcr.io/cicd-lectures/gitpod:latest
     steps:
       - uses: actions/checkout@v2 
       - run: | 
