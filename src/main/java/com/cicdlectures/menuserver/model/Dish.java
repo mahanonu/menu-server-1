@@ -48,7 +48,7 @@ public class Dish {
     Set dishes = new HashSet<>();
 
     for (DishDto dto : dtos) {
-      dishes.add(Dish.fromDto(dto));
+      dishes.add(Dish.fromDto(dto))
     }
 
     return dishes;
