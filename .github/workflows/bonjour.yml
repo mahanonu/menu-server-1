@@ -4,7 +4,9 @@ on:
 jobs:
   dire_bonjour:
     runs-on: ubuntu-latest
-    container: ghcr.io/cicd-lectures/gitpod:latest
+    container: 
+      image: ghcr.io/cicd-lectures/gitpod:latest
+      options: --user=root
     steps:
       - uses: actions/checkout@v2 
       - run: | 
