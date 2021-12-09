@@ -24,4 +24,4 @@ jobs:
         java-version: '11'
     - run: java -version
     - run: mvn -version
-    - run: mvn help:effictive-pom 
+    - run: mvn effictive-pom 
