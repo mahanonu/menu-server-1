@@ -14,5 +14,5 @@ jobs:
     - uses: action/upload-artifact@v2
       with:
         name: menu-server.jar
-        path: target/menu-srver.jar
+        path: target/menu-server.jar
   
