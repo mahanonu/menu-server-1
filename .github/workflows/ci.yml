@@ -11,7 +11,7 @@ jobs:
         distribution: 'zulu' # See 'Supported distributions' for available options
         java-version: '11'
     - run: mvn package
-    - uses: action/upload-artifact@v2
+    - uses: actions/upload-artifact@v2
       with:
         name: menu-server.jar
         path: target/menu-server.jar
