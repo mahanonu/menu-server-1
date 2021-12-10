@@ -100,6 +100,6 @@ public class MenuControllerIT {
       )
       );
       
-    assertEquals(wantMenus, gotMenus);
+    assertEquals(wantMenus. gotMenus[0]);
   }
 }
