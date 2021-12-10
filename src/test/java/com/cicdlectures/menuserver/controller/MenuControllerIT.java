@@ -61,12 +61,12 @@ public class MenuControllerIT {
     // Défini une liste de menus avec un menus.
     Iterable<Menu> newMenus = Arrays.asList(
       new Menu(
-        Long.valueOf(1),
+        null,
         "Christmas menu",
         new HashSet<>(
           Arrays.asList(
-           new Dish(Long.valueOf(1), "Poulet", null),
-           new Dish(Long.valueOf(2), "Pecan Pie", null)
+           new Dish(null, "Poulet", null),
+           new Dish(null, "Pecan Pie", null)
           )
         )
       )
