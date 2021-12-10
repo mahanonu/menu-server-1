@@ -65,7 +65,7 @@ public class MenuControllerIT {
         "Christmas menu",
         new HashSet<>(
           Arrays.asList(
-           new Dish(null, "Poulet", null),
+           new Dish(null, "Turkey", null),
            new Dish(null, "Pecan Pie", null)
           )
         )
