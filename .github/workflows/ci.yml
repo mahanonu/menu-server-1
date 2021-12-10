@@ -36,7 +36,6 @@ jobs:
     - uses: actions/download-artifact@v2
       with:
         name: menu-server.jar
-        path: target/menu-server.jar
     - uses: actions/create-release@v1
       id: create_release
       env:
